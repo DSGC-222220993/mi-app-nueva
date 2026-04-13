@@ -1,0 +1,59 @@
+.contact-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #8b5e3c;
+  font-family: 'Cherry Bomb One', cursive;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #5c4033;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 3px solid #5c4033;
+  border-radius: 15px;
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box; 
+}
+
+#charCount {
+  text-align: right;
+  font-size: 0.8rem;
+  color: #8b5e3c;
+  margin-top: 5px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #b8a2e3;
+  color: white;
+  border: 3px solid #5c4033;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px #5c4033;
+  transition: transform 0.1s;
+}
+
+.submit-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #5c4033;
+}
+
+.submit-btn:hover {
+  background-color: #a68dd6;
+}

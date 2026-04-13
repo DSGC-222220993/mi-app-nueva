@@ -1,59 +1,39 @@
 # MiAppNueva
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+La aplicación cuenta con un sistema de navegación dinámico y una sección de Contacto funcional que valida correos de Gmail, Hotmail u Outlook. Los mensajes enviados se almacenan de forma externa para permitir el despliegue en entornos estáticos como GitHub Pages.
 
-## Development server
+- Frontend: Angular (Standalone Components).
 
-To start a local development server, run:
+- Estilos: CSS3.
 
-```bash
-ng serve
-```
+- Backend Falso: Integración con MockAPI para persistencia de datos.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Preparación del entorno
 
-## Code scaffolding
+Antes de empezar, asegúrate de tener instalado Node.js (versión 18 o superior).
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+1. Clonar e instalar dependencias
 
-```bash
-ng generate component component-name
-```
+git clone https://github.com/tu-usuario/mi-app-nueva.git
+cd mi-app-nueva
+npm install
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+2. Configurar MockAPI
+Para que el formulario de contacto funcione, necesitas tu propia llave de API:
 
-```bash
-ng generate --help
-```
+- Crea una cuenta en mockapi.io.
 
-## Building
+- Crea un nuevo proyecto y un recurso llamado messages.
 
-To build the project run:
+- Define el esquema de messages con los campos: email (string), message (string) y date (date).
 
-```bash
-ng build
-```
+- Copia tu API Endpoint y pégalo en la variable MOCK_API_URL dentro de src/app/pages/contacto/contacto.ts.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Uso en local
 
-## Running unit tests
+Para levantar el servidor de desarrollo:
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+npx ng serve
+Navega a http://localhost:4200/. La aplicación se recargará automáticamente si realizas cambios.
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Prueba la page en:
