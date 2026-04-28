@@ -52,11 +52,7 @@ Navega a http://localhost:4200/. La aplicación se recargará automáticamente s
 - Otros: Contador de caracteres desincronizado, sin internacionalización, y algunos componentes con código incompleto.
 
 Es la etapa inicial de la página y unicamente se desarrollo para conocer como es trabajar con Angular.
-<<<<<<< HEAD
-=======
 
 <img width="752" height="587" alt="image" src="https://github.com/user-attachments/assets/9eede1fb-5748-4d33-bf42-32089d54298e" />
 
 <img width="883" height="734" alt="image" src="https://github.com/user-attachments/assets/d997f90a-8267-4257-a710-cab52fe8a131" />
-
->>>>>>> 0601389726a7ca97bc09fe6b27d64bec3499d19c
