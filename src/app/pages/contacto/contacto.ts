@@ -18,7 +18,6 @@ export class ContactoComponent {
   private readonly MOCK_API_URL = 'https://69dc7d8984f912a26403bee5.mockapi.io/messages';
 
   async enviarFormulario() {
-    // Verificación de seguridad extra
     const validEmail = /.+@(gmail\.com|hotmail\.com|outlook\.com)/.test(this.contacto.email);
     
     if (!validEmail || this.contacto.message.length < 5) {
