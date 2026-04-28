@@ -42,4 +42,21 @@ Para levantar el servidor de desarrollo:
 npx ng serve
 Navega a http://localhost:4200/. La aplicación se recargará automáticamente si realizas cambios.
 
-## Prueba la page en:
+## Notas
+
+- Páginas placeholder: Home, Acerca y Perfil solo tienen texto estático; no hay lógica interactiva ni datos reales.
+- Falta de robustez: No hay manejo de errores amigable (solo alerts), estados de carga, o validación completa (ej. sanitización de inputs, XSS).
+- Validación restrictiva: El email solo acepta dominios específicos; no soporta corporativos.
+- Sin persistencia: Datos del formulario se pierden al recargar.
+- Arquitectura básica: Falta capa de servicios, configuración de entorno, y gestión de estado.
+- Otros: Contador de caracteres desincronizado, sin internacionalización, y algunos componentes con código incompleto.
+
+Es la etapa inicial de la página y unicamente se desarrollo para conocer como es trabajar con Angular.
+<<<<<<< HEAD
+=======
+
+<img width="752" height="587" alt="image" src="https://github.com/user-attachments/assets/9eede1fb-5748-4d33-bf42-32089d54298e" />
+
+<img width="883" height="734" alt="image" src="https://github.com/user-attachments/assets/d997f90a-8267-4257-a710-cab52fe8a131" />
+
+>>>>>>> 0601389726a7ca97bc09fe6b27d64bec3499d19c
